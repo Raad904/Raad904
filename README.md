@@ -1,81 +1,45 @@
-# information
 from pathlib import Path
 import shutil
+import zipfile
+
+src = Path("/mnt/data/ChatGPT Image Sep 25, 2026, 07_56_05 PM.png")
+out_dir = Path("/mnt/data/raad-github-profile")
+out_dir.mkdir(exist_ok=True)
+
+banner = out_dir / "profile-banner.png"
+shutil.copy2(src, banner)
 
 readme = r'''<div align="center">
 
-<!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!--                    ✨ HERO BANNER ✨                         -->
-<!-- ╚══════════════════════════════════════════════════════════════╝ -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,35:0B1F4D,70:2563EB,100:06B6D4&height=230&section=header&text=%C3%85R%20RAAD&fontSize=62&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=HTML%20%E2%80%A2%20CSS%20%E2%80%A2%20Tailwind%20CSS%20%E2%80%A2%20React%20JS%20%E2%80%A2%20Next%20JS&descAlignY=61&descSize=16&descColor=E0F2FE" width="100%" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=760&lines=Hi%2C+I'm+%C3%85R+RAAD+%F0%9F%91%8B;Web+Developer+in+Progress+%F0%9F%92%BB;Learning+%E2%80%A2+Building+%E2%80%A2+Improving+%F0%9F%9A%80;Turning+Ideas+Into+Web+Experiences+%E2%9C%A8;Small+Steps+%E2%86%92+Big+Progress+%F0%9F%8C%B1" alt="Typing Animation" />
+<!-- Replace profile-banner.png with your banner image if you want to use another one -->
+<img src="./profile-banner.png" alt="ÅR RAAD Developer Banner" width="100%"/>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=0ea5e9&style=for-the-badge" alt="Profile Views" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=900&color=38BDF8&center=true&vCenter=true&width=760&lines=Hi%2C+I'm+%C3%85R+RAAD+%F0%9F%91%8B;Web+Developer+in+Progress+%F0%9F%92%BB;Learning+%E2%80%A2+Building+%E2%80%A2+Improving+%F0%9F%9A%80;Small+Steps+%E2%86%92+Big+Progress+%F0%9F%8C%B1" alt="Typing Animation"/>
 
 </div>
 
 ---
 
-## 👋 Hi, I'm ÅR RAAD
+## 👋 Hi, I'm <span style="color:#38BDF8">ÅR RAAD</span>
 
-I'm a **Web Developer in Progress** who enjoys learning, building projects, and exploring modern frontend technologies.
+I'm a passionate **Web Developer in Progress**, currently learning and building modern web applications. I enjoy turning ideas into real projects and exploring new technologies.
 
-> 💡 **Code • Build • Learn • Grow**
-
-- 🌱 Currently learning **Web Development**
-- 💻 Focused on **Frontend Development**
-- 🚀 Learning by building real projects
-- 🎯 Goal: Become a skilled Web Developer
-- 📍 Kapasia, Gazipur, Bangladesh
+> 💙 **Let's build something amazing! 🚀**
 
 ---
 
-## 🧑‍💻 My Tech Stack
+## 💻 Skills & Technologies
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="150">
-<img src="https://skillicons.dev/icons?i=html" width="55"/><br/>
-<b>HTML</b>
-</td>
-<td align="center" width="150">
-<img src="https://skillicons.dev/icons?i=css" width="55"/><br/>
-<b>CSS</b>
-</td>
-<td align="center" width="150">
-<img src="https://skillicons.dev/icons?i=tailwind" width="55"/><br/>
-<b>Tailwind CSS</b>
-</td>
-<td align="center" width="150">
-<img src="https://skillicons.dev/icons?i=react" width="55"/><br/>
-<b>React JS</b>
-</td>
-<td align="center" width="150">
-<img src="https://skillicons.dev/icons?i=nextjs" width="55"/><br/>
-<b>Next JS</b>
-</td>
-</tr>
-</table>
+| HTML | CSS | Tailwind CSS | React JS | Next JS |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="https://skillicons.dev/icons?i=html" width="60"> | <img src="https://skillicons.dev/icons?i=css" width="60"> | <img src="https://skillicons.dev/icons?i=tailwind" width="60"> | <img src="https://skillicons.dev/icons?i=react" width="60"> | <img src="https://skillicons.dev/icons?i=nextjs" width="60"> |
+| **HTML** | **CSS** | **Tailwind CSS** | **React JS** | **Next JS** |
 
 </div>
-
----
-
-## 🛠️ Technologies I'm Learning
-
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React_JS-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Next_JS-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
-</p>
 
 ---
 
@@ -84,28 +48,26 @@ I'm a **Web Developer in Progress** who enjoys learning, building projects, and 
 <div align="center">
 
 <a href="https://wa.me/8801814725084">
-  <img src="https://img.shields.io/badge/WhatsApp-01814725084-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<img src="https://img.shields.io/badge/WhatsApp-01814725084-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </a>
 
 <a href="mailto:raad73575@gmail.com">
-  <img src="https://img.shields.io/badge/Email-raad73575%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/Email-raad73575%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
 </div>
 
+📍 **Location:** Kapasia, Gazipur, Bangladesh
+
 ---
 
-## 📊 GitHub Statistics
+## 📊 GitHub Stats
 
 <div align="center">
 
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" />
-</a>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" />
 
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
-</a>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
 
 </div>
 
@@ -115,7 +77,7 @@ I'm a **Web Developer in Progress** who enjoys learning, building projects, and 
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Contribution Streak" />
 
 </div>
 
@@ -125,25 +87,30 @@ I'm a **Web Developer in Progress** who enjoys learning, building projects, and 
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+<img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
 
 </div>
 
 ---
 
-## 🚀 What I'm Doing Now
+<div align="center">
 
-```text
-Learning Web Development
-        ↓
-HTML + CSS
-        ↓
-Tailwind CSS
-        ↓
-JavaScript
-        ↓
-React JS
-        ↓
-Next JS
-        ↓
-Building Real Projects 🚀
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=A78BFA&center=true&vCenter=true&width=600&lines=Keep+Coding+%F0%9F%92%BB;Keep+Learning+%F0%9F%8C%B1;Keep+Building+%F0%9F%9A%80;Better+Code%2C+Bigger+Dreams+%E2%9C%A8" alt="Footer Animation"/>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:2563EB,100:7C3AED&height=110&section=footer" width="100%"/>
+
+</div>
+'''
+
+readme_path = out_dir / "README.md"
+readme_path.write_text(readme, encoding="utf-8")
+
+zip_path = Path("/mnt/data/raad-github-profile.zip")
+with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
+    z.write(readme_path, "README.md")
+    z.write(banner, "profile-banner.png")
+
+print(readme_path)
+print(zip_path)
