@@ -1,7 +1,4 @@
-from pathlib import Path
-import zipfile
-
-readme = r'''<div align="center">
+<div align="center">
 
 <h1>
   <span style="color:#38BDF8;">ÅR RAAD</span>
