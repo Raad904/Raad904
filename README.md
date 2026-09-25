@@ -222,14 +222,3 @@ I'm a passionate **Web Developer in Progress**, currently learning and building 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:2563EB,100:7C3AED&height=110&section=footer" width="100%"/>
 
 </div>
-'''
-
-out = Path("/mnt/data/README.md")
-out.write_text(readme, encoding="utf-8")
-
-zip_path = Path("/mnt/data/raad-readme-only.zip")
-with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
-    z.write(out, "README.md")
-
-print(out)
-print(zip_path)
