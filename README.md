@@ -1,7 +1,7 @@
-from pathlib import Path
+
 import shutil
 
-readme = r'''<div align="center">
+<div align="center">
 
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
 <!--                    ✨ HERO BANNER ✨                         -->
