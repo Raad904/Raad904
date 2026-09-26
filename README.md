@@ -1,24 +1,16 @@
 <div align="center">
 
-<h1>
-  <span style="color:#38BDF8;">ÅR RAAD</span>
-</h1>
+<!-- ===================== BANNER ===================== -->
 
-<h3>💻 Web Developer in Progress</h3>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,35:0B1F4D,70:2563EB,100:06B6D4&height=220&section=header&text=ÅR%20RAAD&fontSize=55&fontColor=FFFFFF&fontAlignY=35&desc=Web%20Developer%20in%20Progress&descAlignY=55&descSize=20&animation=fadeIn" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Code+%E2%80%A2+Build+%E2%80%A2+Grow+%F0%9F%9A%80;Learning+Web+Development+%F0%9F%92%BB;HTML+%7C+CSS+%7C+Tailwind+CSS+%7C+React+JS+%7C+Next+JS;Small+Steps+%E2%86%92+Big+Progress+%F0%9F%8C%B1" alt="Typing Animation"/>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,50:0B1F4D,100:06B6D4&height=4&section=header" width="90%"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=900&color=38BDF8&center=true&vCenter=true&width=700&lines=Code+%E2%80%A2+Build+%E2%80%A2+Grow+%F0%9F%9A%80;Learning+Web+Development+%F0%9F%92%BB;HTML+%7C+CSS+%7C+Tailwind+CSS+%7C+React+JS+%7C+Next+JS;Small+Steps+%E2%86%92+Big+Progress+%F0%9F%8C%B1" alt="Typing Animation"/>
 
 </div>
 
 <br/>
 
-<table>
-<tr>
-<td width="48%" valign="top">
+<!-- ===================== ABOUT ME ===================== -->
 
 ## 👋 Hi, I'm ÅR RAAD
 
@@ -26,47 +18,24 @@ I'm a passionate **Web Developer in Progress**, currently learning and building 
 
 💡 I love turning ideas into real projects and exploring new technologies.
 
-🚀 **Let's build something amazing!**
+🚀 My goal is to improve my skills by building real-world projects and learning something new every day.
 
-### 📍 Location
-**Kapasia, Gazipur, Bangladesh**
-
-</td>
-
-<td width="52%" valign="top">
-
-## 📫 Contact Me
-
-<table>
-<tr>
-<td>🟢 <b>WhatsApp</b></td>
-<td>01814725084</td>
-</tr>
-<tr>
-<td>📧 <b>Email</b></td>
-<td><a href="mailto:raad73575@gmail.com">raad73575@gmail.com</a></td>
-</tr>
-<tr>
-<td>📍 <b>Location</b></td>
-<td>Kapasia, Gazipur, Bangladesh</td>
-</tr>
-</table>
-
-<br/>
-
-<a href="https://wa.me/8801814725084">
-<img src="https://img.shields.io/badge/WhatsApp-01814725084-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-</a>
-
-<a href="mailto:raad73575@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-</td>
-</tr>
-</table>
+📍 **Location:** Kapasia, Gazipur, Bangladesh
 
 ---
+
+## 🚀 Current Activities
+
+- 🔭 I am exploring **Next.js** and modern web development.
+- 💻 I am building and improving **real-world web projects**.
+- 🎨 I am learning **UI/UX design** and responsive web design.
+- 🌐 I am working with **Tailwind CSS** to create modern interfaces.
+- ⚛️ I am improving my **React JS** skills.
+- 🧠 I am continuously learning and improving my coding skills.
+
+---
+
+<!-- ===================== TECH STACK ===================== -->
 
 <div align="center">
 
@@ -74,47 +43,89 @@ I'm a passionate **Web Developer in Progress**, currently learning and building 
 
 <table>
 <tr>
-<td align="center" width="150">
 
-<img src="https://skillicons.dev/icons?i=html" width="60"/>
-
-### HTML
-
+<td align="center" width="140">
+<img src="https://skillicons.dev/icons?i=html" width="65"/>
+<br/>
+<b>HTML</b>
 </td>
-<td align="center" width="150">
 
-<img src="https://skillicons.dev/icons?i=css" width="60"/>
-
-### CSS
-
+<td align="center" width="140">
+<img src="https://skillicons.dev/icons?i=css" width="65"/>
+<br/>
+<b>CSS</b>
 </td>
-<td align="center" width="150">
 
-<img src="https://skillicons.dev/icons?i=tailwind" width="60"/>
-
-### Tailwind CSS
-
+<td align="center" width="140">
+<img src="https://skillicons.dev/icons?i=tailwind" width="65"/>
+<br/>
+<b>Tailwind CSS</b>
 </td>
-<td align="center" width="150">
 
-<img src="https://skillicons.dev/icons?i=react" width="60"/>
-
-### React JS
-
+<td align="center" width="140">
+<img src="https://skillicons.dev/icons?i=js" width="65"/>
+<br/>
+<b>JavaScript</b>
 </td>
-<td align="center" width="150">
 
-<img src="https://skillicons.dev/icons?i=nextjs" width="60"/>
+</tr>
 
-### Next JS
+<tr>
 
+<td align="center" width="140">
+<img src="https://skillicons.dev/icons?i=react" width="65"/>
+<br/>
+<b>React JS</b>
 </td>
+
+<td align="center" width="140">
+<img src="https://skillicons.dev/icons?i=nextjs" width="65"/>
+<br/>
+<b>Next JS</b>
+</td>
+
+<td align="center" width="140">
+<img src="https://skillicons.dev/icons?i=git" width="65"/>
+<br/>
+<b>Git</b>
+</td>
+
+<td align="center" width="140">
+<img src="https://skillicons.dev/icons?i=github" width="65"/>
+<br/>
+<b>GitHub</b>
+</td>
+
 </tr>
 </table>
 
 </div>
 
 ---
+
+<!-- ===================== SOCIAL LINKS ===================== -->
+
+<div align="center">
+
+# 🌐 Connect With Me
+
+<a href="https://wa.me/8801814725084">
+<img src="https://img.shields.io/badge/WhatsApp-01814725084-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+</a>
+
+<a href="mailto:raad73575@gmail.com">
+<img src="https://img.shields.io/badge/Email-raad73575%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://github.com/YOUR_GITHUB_USERNAME">
+<img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+<!-- ===================== GITHUB STATS ===================== -->
 
 <div align="center">
 
@@ -122,22 +133,23 @@ I'm a passionate **Web Developer in Progress**, currently learning and building 
 
 <table>
 <tr>
-<td>
 
+<td>
 <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" height="180"/>
-
 </td>
+
 <td>
-
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
-
 </td>
+
 </tr>
 </table>
 
 </div>
 
 ---
+
+<!-- ===================== CONTRIBUTION STREAK ===================== -->
 
 <div align="center">
 
@@ -149,6 +161,20 @@ I'm a passionate **Web Developer in Progress**, currently learning and building 
 
 ---
 
+<!-- ===================== CONTRIBUTION GRAPH ===================== -->
+
+<div align="center">
+
+# 📈 Contribution Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night&hide_border=true&area=true" width="95%"/>
+
+</div>
+
+---
+
+<!-- ===================== SNAKE ANIMATION ===================== -->
+
 <div align="center">
 
 # 🐍 Contribution Animation
@@ -159,66 +185,76 @@ I'm a passionate **Web Developer in Progress**, currently learning and building 
 
 ---
 
+<!-- ===================== WHAT I'M LEARNING ===================== -->
+
 <div align="center">
 
 # 🚀 What I'm Learning
 
 <table>
 <tr>
-<td align="center">
 
-<img src="https://skillicons.dev/icons?i=html" width="50"/><br/>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=html" width="55"/>
+<br/>
 <b>HTML</b>
-
 </td>
-<td>➡️</td>
-<td align="center">
 
-<img src="https://skillicons.dev/icons?i=css" width="50"/><br/>
+<td>➡️</td>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=css" width="55"/>
+<br/>
 <b>CSS</b>
-
 </td>
-<td>➡️</td>
-<td align="center">
 
-<img src="https://skillicons.dev/icons?i=tailwind" width="50"/><br/>
+<td>➡️</td>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=tailwind" width="55"/>
+<br/>
 <b>Tailwind</b>
-
 </td>
-<td>➡️</td>
-<td align="center">
 
-<img src="https://skillicons.dev/icons?i=js" width="50"/><br/>
+<td>➡️</td>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=js" width="55"/>
+<br/>
 <b>JavaScript</b>
-
 </td>
-<td>➡️</td>
-<td align="center">
 
-<img src="https://skillicons.dev/icons?i=react" width="50"/><br/>
+<td>➡️</td>
+
+<td align="center">
+<img src="https://skillicons.dev/icons?i=react" width="55"/>
+<br/>
 <b>React JS</b>
-
 </td>
+
 <td>➡️</td>
+
 <td align="center">
-
-<img src="https://skillicons.dev/icons?i=nextjs" width="50"/><br/>
+<img src="https://skillicons.dev/icons?i=nextjs" width="55"/>
+<br/>
 <b>Next JS</b>
-
 </td>
+
 </tr>
 </table>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1100&color=A78BFA&center=true&vCenter=true&width=620&lines=Keep+Coding+%F0%9F%92%BB;Keep+Learning+%F0%9F%8C%B1;Keep+Building+%F0%9F%9A%80;Better+Code+%E2%86%92+Bigger+Dreams+%E2%9C%A8" alt="Footer Animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1100&color=A78BFA&center=true&vCenter=true&width=650&lines=Keep+Coding+%F0%9F%92%BB;Keep+Learning+%F0%9F%8C%B1;Keep+Building+%F0%9F%9A%80;Better+Code+%E2%86%92+Bigger+Dreams+%E2%9C%A8" alt="Footer Animation"/>
 
 </div>
 
 ---
 
+<!-- ===================== FOOTER ===================== -->
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:2563EB,100:7C3AED&height=110&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:2563EB,100:7C3AED&height=120&section=footer" width="100%"/>
 
 </div>
